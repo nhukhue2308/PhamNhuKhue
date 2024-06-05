@@ -1,0 +1,28 @@
+  Khái niệm Internet
+Hệ thống mạng máy tính kết nối với nhau
+Chú thích: ISP: Internet service provider
+Switch: Switch đường input ra đường output yêu cầu
+Enterprise network: dùng switch, home network: dùng router
+ISO-OSI model: 
+Application: phần giao diện để tương tác.
+- Presentation: để mã hoá (encrypt) các dữ liệu được (nhập vào)? để chuyển đi xuống dưới
+- session: phiên hoạt động để lưu trên host.
+- transport: để kết nối các protocol cuối với đầu :)?
+- network: mạng, địa chỉ IP online.
+- Data link: địa chỉ của phần cứng, thiết bị (gần giống IP).
+- Physical: dây
+DNS
+DNS: Domain Name System
+Domain: Tên miền (là tên cho IP), xem trang đi đâu
+Root: cao nhất (là dấu chấm cuối cùng k thấy)
+Top level domain: cao nhất, chứa tên
+Second level domain
+Third level domain
+Subdomain: k có quy định về tren
+Cách làm việc của DNS: Browser → OS (no cache?) → DNS resolver (no cache?) → ISP (Internet Service Provider, no cache?) → TLD (don’t no that domain but knows which DNS server has it) → returns DNS IP → ISP takes DNS IP and asks that DNS server → DNS server returns web IP → ISP returns IP to our DNS server → our DNS server returns to OS → OS returns to Browser 
+2) HyperText Transfer Protocol:
+Kiểu dữ liệu HTTP gửi là text
+HTTP nằm ở lớp Application
+TCP nằm ở lớp Transport
+HTTPS: Không thể đọc được request và response của máy tính và máy chủ. Giup mã hóa request+response. Mọi công đoạn mã hóa và giải mã sẽ được thực hiện nhờ Private key và Public key của máy chủ và thiết bị
+
